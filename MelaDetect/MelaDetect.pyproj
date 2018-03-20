@@ -76,7 +76,6 @@
     <Content Include="MelaDetect\static\scripts\_references.js" />
     <Content Include="MelaDetect\templates\about.html" />
     <Content Include="MelaDetect\templates\prediction.html" />
-    <Content Include="MelaDetect\templates\index3.html" />
     <Content Include="MelaDetect\templates\layout.html" />
   </ItemGroup>
   <ItemGroup>
