@@ -1,9 +1,0 @@
-layers
-core
-normalization
-utils
-pooling
-convolutional
-maxout
-base
-network

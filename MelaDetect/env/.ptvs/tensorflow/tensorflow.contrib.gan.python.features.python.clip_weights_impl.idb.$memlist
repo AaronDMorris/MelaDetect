@@ -1,7 +1,0 @@
-variable_clipping_optimizer
-absolute_import
-division
-clip_variables
-print_function
-__all__
-clip_discriminator_weights

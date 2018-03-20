@@ -1,4 +1,0 @@
-op_profile_pb2
-tpu_profiler_pb2
-trace_events_pb2
-tf_op_stats_pb2

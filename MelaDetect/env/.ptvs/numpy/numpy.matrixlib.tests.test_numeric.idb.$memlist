@@ -1,8 +1,0 @@
-run_module_suite
-absolute_import
-test_diagonal
-np
-division
-print_function
-assert_equal
-TestDot
