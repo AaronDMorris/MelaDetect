@@ -1,0 +1,11 @@
+linear_operator_low_rank_update
+linear_operator_diag
+linear_operator_lower_triangular
+linear_operator_util
+linear_operator_full_matrix
+linear_operator
+linear_operator_identity
+linalg
+linalg_impl
+linear_operator_test_util
+linear_operator_composition

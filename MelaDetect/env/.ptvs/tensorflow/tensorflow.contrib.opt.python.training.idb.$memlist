@@ -1,0 +1,11 @@
+lazy_adam_optimizer
+drop_stale_gradient_optimizer
+nadam_optimizer
+addsign
+powersign
+external_optimizer
+variable_clipping_optimizer
+sign_decay
+moving_average_optimizer
+elastic_average_optimizer
+multitask_optimizer_wrapper

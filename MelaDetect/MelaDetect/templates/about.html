@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>Malignant : {{ prediction[0][0] }}</h2>
+<h2>Benign : {{ prediction[0][1] }}</h2>
+{{ prediction|tojson|safe }}
+
+<p>Use this area to provide additional information.</p>
+
+{% endblock %}

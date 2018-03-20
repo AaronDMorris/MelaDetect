@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    
+    {% if prediction[0][0] > 0.183 %}
+        {% if prediction[0][0] > 0.40 -%}
+            <div class="alert alert-danger">
+            <strong>Very High Risk!</strong> Based upon our Artificial Intelligence, it is recommended that you seek a full medical diagnosis as soon as possible
+            </div>
+            <h2>Malignant : {{ prediction[0][0] }} </h2>
+        {% elif prediction[0][0] > 0.25 -%}
+            <div class="alert alert-warning">
+                <strong>High Risk!</strong> Based upon our Artificial Intelligence, it is recommended that you seek a full medical diagnosis as soon as possible
+            </div>     
+            <h2>Malignant : {{ prediction[0][0] }} </h2>
+        {% elif prediction[0][0] > 0.183 -%}
+            <div class="alert alert-info">
+                <strong>Risk!</strong> Based upon our Artificial Intelligence, it is recommended that you seek a full medical diagnosis as soon as possible
+            </div>     
+            <h2>Malignant : {{ prediction[0][0] }} </h2>
+        {%- endif %}
+    {% else %}
+
+        <div class="alert alert-success">
+                <strong>Low/No Risk</strong> Based upon our Artificial Intelligence, you do not appear to have an immediate cause for concern
+            </div>     
+        <h2>Benign : {{ prediction[0][1] }}</h2>
+
+    {% endif %}
+
+{% endblock %}

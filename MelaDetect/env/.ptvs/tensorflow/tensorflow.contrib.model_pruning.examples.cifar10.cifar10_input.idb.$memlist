@@ -1,0 +1,14 @@
+read_cifar10
+NUM_CLASSES
+IMAGE_SIZE
+absolute_import
+NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN
+xrange
+inputs
+division
+_generate_image_and_label_batch
+print_function
+os
+tf
+distorted_inputs
+NUM_EXAMPLES_PER_EPOCH_FOR_EVAL

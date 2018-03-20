@@ -1,0 +1,13 @@
+projector_config_pb2
+projector_plugin
+_text_format
+os
+absolute_import
+ProjectorConfig
+division
+SpriteMetadata
+print_function
+_projector_plugin
+tf
+visualize_embeddings
+EmbeddingInfo
