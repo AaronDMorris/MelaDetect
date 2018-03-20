@@ -1,0 +1,15 @@
+evaluator
+base_ui
+command_parser
+curses_ui
+debugger_cli_common
+tensor_format
+profile_analyzer_cli
+cli_config
+curses_widgets
+cli_shared
+offline_analyzer
+stepper_cli
+analyzer_cli
+ui_factory
+readline_ui

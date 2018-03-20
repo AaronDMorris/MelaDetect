@@ -1,0 +1,12 @@
+_MONOLITHIC_BUILD
+remove_undocumented
+absolute_import
+get_include
+get_compile_flags
+get_link_flags
+division
+print_function
+_os_path
+_allowed_symbols
+get_lib
+_CXX11_ABI_FLAG

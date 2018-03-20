@@ -1,0 +1,16 @@
+batch_function
+gen_batch_ops
+_batch_ops
+range
+isinstance
+absolute_import
+ValueError
+_BatchGrad
+loader
+print_function
+division
+len
+_UnbatchGrad
+resource_loader
+repr
+ops
