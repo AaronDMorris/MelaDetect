@@ -9,28 +9,30 @@
 <div class="jumbotron">
     <h1>MelaDetect</h1>
     <p class="lead">A Medical Utility, To Help Aid In The Diagnosis Of Malignant Melanoma</p>
+    <div class="mastfoot">
+        <hr />
+
+    </div>
+    <div class="container">
+        <div style="margin-top:10px">
+            <h4 style="color:black">Upload new Image </h4>
+            <form method=post enctype=multipart/form-data>
+                <p>
+                    <div class="row">
+                        <input class="btn btn-block" type=file name=file>
+                    </div>
+                    <div class="row">
+                        <input class="btn btn-block" type=submit value=Upload>
+                    </div>
+            </form>
+        </div>
+    </div>
     <!--<p><a href="http://flask.pocoo.org/" class="btn btn-primary btn-large">Learn more &raquo;</a></p>-->
 </div>
     <div class="site-wrapper">
         <div class="cover-container">
  
-            <div class="mastfoot">
-                <hr />
-                <div class="container">
-                    <div style="margin-top:10px">
-                        <h4 style="color:black">Upload new Image </h4>
-                        <form method=post enctype=multipart/form-data>
-                            <p>
-                                <div class="row">
-                                    <input class="btn btn-block" type=file name=file>
-                                </div>
-                                <div class="row">
-                                    <input class="btn btn-block" type=submit value=Upload>
-                                </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
     {% endblock %}
