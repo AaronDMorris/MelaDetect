@@ -33,6 +33,7 @@
     </Compile>
     <Compile Include="PythonScripts\File Manipulation.py" />
     <Compile Include="PythonScripts\Freeze Graph.py" />
+    <Compile Include="PythonScripts\Install_Python_Modules.py" />
     <Compile Include="PythonScripts\Load The Model And Test.py" />
     <Compile Include="PythonScripts\Process Images To Arrays.py" />
     <Compile Include="PythonScripts\Training The Model.py" />
