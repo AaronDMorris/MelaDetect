@@ -24,12 +24,15 @@ class classify_image(object):
     def process_images(self, image):
         import cv2
         import numpy as np
+        import os
+
+        filePath = os.path.dirname(os.path.abspath(__file__))
         image_array = []
         #image = cv2.resize(cv2.imread('C:\\Users\\arron\\Machine-Learning\\MelaDetect\\uploads\\' + image.filename, cv2.IMREAD_COLOR), (122, 122))
         #image = cv2.fastNlMeansDenoising(img, 5, 7)
         #image = cv2.resize(cv2.imread('E:\\MelaDetect\\alldata_testdata_malignant\\' + '116.jpg', cv2.IMREAD_COLOR), (122, 122))
 
-        image = cv2.resize(cv2.imread('E:\\MelaDetect\\alldata_testdata_benign\\' + '1489.jpg', cv2.IMREAD_COLOR), (122, 122))
+        image = cv2.resize(cv2.imread(filePath + '//uploads' + '//' + image.filename, cv2.IMREAD_COLOR), (122, 122))
         image_array.append([np.array(image)])
         
         return image_array      

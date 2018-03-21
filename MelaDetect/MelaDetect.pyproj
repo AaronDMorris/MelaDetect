@@ -51,6 +51,7 @@
     <Folder Include="PythonScripts\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MelaDetect\12-03-frozen_model.pb" />
     <Content Include="MelaDetect\templates\index.html" />
     <Content Include="requirements.txt" />
     <Content Include="MelaDetect\static\content\bootstrap.css" />

@@ -9,16 +9,18 @@ from MelaDetect import classify_image
 import tensorflow as tf
 import numpy as np
 import cv2
-
+import os
 
 @app.route('/', methods=['POST', 'GET'])
-def meladetect():                       
+def meladetect():
+        filePath = os.path.dirname(os.path.abspath(__file__))
         if request.method == 'POST':
             image_to_process = []
             classify = classify_image.classify_image()
             image = request.files['file']
             #image.save does not work in Visual Studio, images are left blank?
-            image.save('C:\\Users\\arron\\Machine-Learning\\MelaDetect\\uploads\\' + image.filename)
+            image.save(filePath + '\\MelaDetect' + '\\uploads' + '\\' + image.filename)
+            #image.save('C:\\Users\\arron\\Machine-Learning\\MelaDetect\\uploads\\' + image.filename)
             img_name = image.filename.split('.')[0]
             image = classify.process_images(image)
 
